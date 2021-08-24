@@ -16,7 +16,7 @@ import (
 	"github.com/david-dut/saml"
 )
 
-var sessionMaxAge = time.Hour * 8
+var sessionMaxAge = time.Hour * 10
 
 // GetSession returns the *Session for this request.
 //
